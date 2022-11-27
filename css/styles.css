@@ -1,0 +1,179 @@
+body{
+    font-family: 'Armitage';
+    text-align: center;
+}
+
+h1 , h2 , h3 , h4 , h5 ,  h6 {
+    font-family:'Armitage-Bold' ;
+}
+
+
+p{
+   color:#d01010
+}
+
+
+
+/* heading  */
+
+.big-heading{
+    font-family: 'Armitage-Black'; 
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;  
+    line-height: 1.5; 
+}
+
+/* container section */
+.container{
+    padding: 7% 15% ;
+} 
+
+/* section */
+
+.color-section{
+   background-color: #d5375ca2;
+   color: rgb(144, 42, 42);
+}
+
+.white-section{
+   background-color: rgba(209, 107, 151, 0.773);
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Armitage-Light';
+}
+
+/* download button */
+
+.download-button{
+    margin : 5% 3% 5% 0;
+}
+
+/* title section */
+
+
+#title .container{
+    padding: 3% 15%;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-image{
+  width: 20%;
+   transform: rotate(25deg);
+    position: absolute;
+    right: 442px;
+}
+
+/* features section */
+
+#features{
+    position:relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.features-text{
+ font-size: 1.5rem;
+}
+
+.icon{
+    color:#ca5061;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #dc243f;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ca6182;
+}
+
+.testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+   
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press section */
+
+#press{
+    background-color: #e28f84;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+    #tittle{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0deg);
+        width: 60%;
+        
+    }
+}
